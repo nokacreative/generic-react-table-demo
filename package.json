@@ -2,7 +2,7 @@
   "name": "@noka/react-generic-table-demo",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://nokacreative.github.io/noka-react-generic-table-demo",
+  "homepage": "https://nokacreative.github.io/noka-generic-react-table-demo",
   "dependencies": {
     "node-sass": "^5.0.0",
     "react": "^17.0.2",

@@ -22,6 +22,7 @@ export const columns: TableColumn<ProductModel>[] = [
     propertyPath: 'price',
     headerText: 'Price',
     type: DataType.MONEY,
+    defaultWidth: 'min-content',
   },
   {
     propertyPath: 'dateAdded',
