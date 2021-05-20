@@ -5,7 +5,7 @@ import { TagModel } from '../domain/tag.model'
 import { UserModel } from '../domain/user.model'
 
 // Fake document DB
-interface Database {
+export interface Database {
   users: UserModel[]
   groups: GroupModel[]
   tags: TagModel[]

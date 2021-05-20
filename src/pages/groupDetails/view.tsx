@@ -1,16 +1,25 @@
-import { useParams } from 'react-router'
-import { database } from '../../assets/database'
-import { IdRouteParams } from '../../common/models'
+import { DataType } from '@nokacreative/generic-react-table'
+import React from 'react'
+
+import { DetailPage } from '../../common/detailPage'
 
 export const GroupDetalis = () => {
-  const { id } = useParams<IdRouteParams>()
-  const group = database.groups.find((g) => g.id === id)
-  if (!group) {
-    return <div>Could not find group</div>
-  }
   return (
-    <div>
-      ID: {id} | Name: {group.name}
-    </div>
+    <DetailPage
+      entityName="Group"
+      dbKey="groups"
+      columns={[
+        {
+          propertyPath: 'name',
+          headerText: 'Name',
+          type: DataType.PLAIN_TEXT,
+        },
+        {
+          propertyPath: 'description',
+          headerText: 'Description',
+          type: DataType.RICH_TEXT,
+        },
+      ]}
+    />
   )
 }
