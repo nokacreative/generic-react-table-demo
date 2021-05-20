@@ -1,0 +1,1 @@
+export { GroupDetalis } from './view'

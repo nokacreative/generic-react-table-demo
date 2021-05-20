@@ -1,0 +1,1 @@
+export { UserDetalis } from './view'
