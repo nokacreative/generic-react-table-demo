@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/noka-react-generic-table-demo/static/css/main.acd222c2.chunk.css",
+    "main.js": "/noka-react-generic-table-demo/static/js/main.fcee9c7a.chunk.js",
+    "main.js.map": "/noka-react-generic-table-demo/static/js/main.fcee9c7a.chunk.js.map",
+    "runtime-main.js": "/noka-react-generic-table-demo/static/js/runtime-main.ac3a73bd.js",
+    "runtime-main.js.map": "/noka-react-generic-table-demo/static/js/runtime-main.ac3a73bd.js.map",
+    "static/css/2.79ec7b98.chunk.css": "/noka-react-generic-table-demo/static/css/2.79ec7b98.chunk.css",
+    "static/js/2.b9f64601.chunk.js": "/noka-react-generic-table-demo/static/js/2.b9f64601.chunk.js",
+    "static/js/2.b9f64601.chunk.js.map": "/noka-react-generic-table-demo/static/js/2.b9f64601.chunk.js.map",
+    "static/js/3.31014a99.chunk.js": "/noka-react-generic-table-demo/static/js/3.31014a99.chunk.js",
+    "static/js/3.31014a99.chunk.js.map": "/noka-react-generic-table-demo/static/js/3.31014a99.chunk.js.map",
+    "index.html": "/noka-react-generic-table-demo/index.html",
+    "static/css/2.79ec7b98.chunk.css.map": "/noka-react-generic-table-demo/static/css/2.79ec7b98.chunk.css.map",
+    "static/css/main.acd222c2.chunk.css.map": "/noka-react-generic-table-demo/static/css/main.acd222c2.chunk.css.map",
+    "static/js/2.b9f64601.chunk.js.LICENSE.txt": "/noka-react-generic-table-demo/static/js/2.b9f64601.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ac3a73bd.js",
+    "static/css/2.79ec7b98.chunk.css",
+    "static/js/2.b9f64601.chunk.js",
+    "static/css/main.acd222c2.chunk.css",
+    "static/js/main.fcee9c7a.chunk.js"
+  ]
+}
