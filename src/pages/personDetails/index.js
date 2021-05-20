@@ -1,0 +1,1 @@
+export { PersonDetalis } from './view'

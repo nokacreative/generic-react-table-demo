@@ -1,0 +1,17 @@
+@import 'assets/vars.scss';
+
+.detail-page {
+  & > header {
+    margin-bottom: 2.5rem;
+
+    h1 {
+      margin: 0;
+      margin-bottom: 0.7rem;
+      padding: 0;
+    }
+  }
+
+  #ok-button {
+    margin-top: 1rem;
+  }
+}

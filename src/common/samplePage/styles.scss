@@ -1,0 +1,23 @@
+@import 'assets/vars.scss';
+
+.sample-page {
+  & > header {
+    margin-bottom: 2.5rem;
+
+    h1 {
+      margin: 0;
+      margin-bottom: 0.7rem;
+      padding: 0;
+    }
+
+    .description {
+      font-weight: 300;
+    }
+  }
+
+  em {
+    color: $secondary;
+    font-style: normal;
+    font-weight: 600;
+  }
+}
