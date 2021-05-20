@@ -1425,10 +1425,10 @@
     "@nodelib/fs.scandir" "2.1.4"
     fastq "^1.6.0"
 
-"@nokacreative/generic-react-table@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@nokacreative/generic-react-table/-/generic-react-table-1.0.0.tgz#cfc3880b7a8c6b977f404626fe5e1523d515dfaf"
-  integrity sha512-Ed7Ztclz5Juobbiv/85Mtr+XwAsVyppzIBhXzEQimOXMpJN1WdVGwk+45Zab8v+A0e6Y4XVMpCtBBK1mZXaQQw==
+"@nokacreative/generic-react-table@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@nokacreative/generic-react-table/-/generic-react-table-1.0.2.tgz#e6902070830666dec2ed55e43d9bad1ee26bcbe2"
+  integrity sha512-kZLBdzKjBmnyN1lHj2QQUwtzp28LYN8fwYjoZyb/lnUtteQqnGGrguyy8dUS/FpqQNDVitf0n5APqb8x7S4xVg==
   dependencies:
     node-sass "^5.0.0"
     react-datepicker "^3.8.0"
