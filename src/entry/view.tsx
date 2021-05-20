@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+import { HashRouter as Router, Switch, Route, Link } from 'react-router-dom'
 
 import './styles.scss'
 
@@ -19,7 +19,7 @@ import { MasterSample } from '../pages/masterSample'
 import { StyleOverridesSample } from '../pages/styleOverridesSample'
 
 export const Entry = () => (
-  <Router>
+  <Router basename="/">
     <div id="links">
       <p>Select the sample you would like to view:</p>
       <Link to={ROUTES.usersTable}>Simple</Link>
