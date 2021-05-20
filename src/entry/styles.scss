@@ -91,17 +91,6 @@ button {
   }
 }
 
-input {
-  width: 100%;
-  font-family: inherit;
-  border: 1px solid $separatorColor;
-
-  &:active,
-  &:focus {
-    outline: 1px solid $tertiary;
-  }
-}
-
 @media all and (max-width: 950px) {
   #links,
   main {

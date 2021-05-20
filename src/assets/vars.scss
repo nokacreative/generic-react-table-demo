@@ -1,13 +1,7 @@
 $primary: #1abc9c;
 $secondary: #bc451a;
-$tertiary: #ff9933;
 $header: #777777;
 $text: #505050;
-$black: #181818;
-
-$primaryDark: #008066;
-
-$separatorColor: #b39f98;
 
 @mixin triangle($color, $size) {
   width: 0;
