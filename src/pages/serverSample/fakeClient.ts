@@ -1,5 +1,5 @@
 import { database } from '../../assets/database'
-import { DataType, SortDirection, SortingRule } from '@noka/generic-react-table'
+import { DataType, SortDirection, SortingRule } from '@nokacreative/generic-react-table'
 import { getNestedValue } from '../../common/utils/general'
 import { ProductModel } from '../../domain/product.model'
 import { ServerResponse, ServerSearchParams } from './models'

@@ -1,7 +1,12 @@
 import { Link } from 'react-router-dom'
 import { database } from '../../assets/database'
 import { ROUTES } from '../../assets/routes'
-import { TableColumn, DataType, FilterType, CustomFilterType } from '@noka/generic-react-table'
+import {
+  TableColumn,
+  DataType,
+  FilterType,
+  CustomFilterType,
+} from '@nokacreative/generic-react-table'
 import { MasterModel } from '../../domain/master.model'
 import { PersonModel } from '../../domain/person.model'
 

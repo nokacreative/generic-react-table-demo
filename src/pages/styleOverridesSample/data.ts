@@ -1,4 +1,4 @@
-import { TableColumn, DataType } from '@noka/generic-react-table'
+import { TableColumn, DataType } from '@nokacreative/generic-react-table'
 import { TagModel } from '../../domain/tag.model'
 
 export const columns: TableColumn<TagModel>[] = [

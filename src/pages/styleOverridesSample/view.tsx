@@ -1,5 +1,5 @@
 import React from 'react'
-import { Table } from '@noka/generic-react-table'
+import { Table } from '@nokacreative/generic-react-table'
 
 import { database } from '../../assets/database'
 import { columns } from './data'

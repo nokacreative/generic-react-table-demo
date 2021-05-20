@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import { ROUTES } from '../../assets/routes'
-import { TableColumn, DataType, SortDirection } from '@noka/generic-react-table'
+import { TableColumn, DataType, SortDirection } from '@nokacreative/generic-react-table'
 import { HydratedGroupModel } from './models'
 
 export const columns: TableColumn<HydratedGroupModel>[] = [

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Table } from '@noka/generic-react-table'
+import { Table } from '@nokacreative/generic-react-table'
 import { columns } from './data'
 import { HydratedGroupModel } from './models'
 import { SamplePage } from '../../common/samplePage'

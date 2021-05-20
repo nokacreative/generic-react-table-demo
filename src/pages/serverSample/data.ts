@@ -1,4 +1,4 @@
-import { TableColumn, DataType, SortDirection } from '@noka/generic-react-table'
+import { TableColumn, DataType, SortDirection } from '@nokacreative/generic-react-table'
 import { ProductModel } from '../../domain/product.model'
 
 export const DEFAULT_PAGE_SIZE = 5

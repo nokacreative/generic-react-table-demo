@@ -1,4 +1,4 @@
-import { SortingRule } from '@noka/generic-react-table'
+import { SortingRule } from '@nokacreative/generic-react-table'
 import { ProductModel } from '../../domain/product.model'
 
 export interface ServerSearchParams {

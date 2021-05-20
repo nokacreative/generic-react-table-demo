@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import { Table } from '@noka/generic-react-table'
+import { Table } from '@nokacreative/generic-react-table'
 import { GroupModel } from '../../domain/group.model'
 import { UserModel } from '../../domain/user.model'
 import { columns } from './data'

@@ -2,7 +2,7 @@ import React from 'react'
 
 import './styles.scss'
 
-import { Table } from '@noka/generic-react-table'
+import { Table } from '@nokacreative/generic-react-table'
 import { columns } from './data'
 import { SamplePage } from '../../common/samplePage'
 import { database } from '../../assets/database'

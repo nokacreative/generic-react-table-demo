@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import { ROUTES } from '../../assets/routes'
-import { TableColumn, DataType } from '@noka/generic-react-table'
+import { TableColumn, DataType } from '@nokacreative/generic-react-table'
 import { GroupModel } from '../../domain/group.model'
 import { UserModel } from '../../domain/user.model'
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 import './styles.scss'
 
-import { FilterMap, Table } from '@noka/generic-react-table'
+import { FilterMap, Table } from '@nokacreative/generic-react-table'
 import { columns } from './data'
 import { SamplePage } from '../../common/samplePage'
 import { PersonModel } from '../../domain/person.model'

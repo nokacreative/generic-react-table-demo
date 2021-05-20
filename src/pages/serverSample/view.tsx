@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { SortingRule, Table } from '@noka/generic-react-table'
+import { SortingRule, Table } from '@nokacreative/generic-react-table'
 import { columns, DEFAULT_PAGE_SIZE } from './data'
 import { SamplePage } from '../../common/samplePage'
 import { ProductModel } from '../../domain/product.model'

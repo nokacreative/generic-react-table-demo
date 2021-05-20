@@ -1,4 +1,4 @@
-import { FilterMap } from '@noka/generic-react-table'
+import { FilterMap } from '@nokacreative/generic-react-table'
 import { PersonModel } from '../../domain/person.model'
 
 export interface ServerSearchParams {

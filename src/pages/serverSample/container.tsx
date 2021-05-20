@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 
-import { SortingRule } from '@noka/generic-react-table'
+import { SortingRule } from '@nokacreative/generic-react-table'
 import { ProductModel } from '../../domain/product.model'
 import { DEFAULT_PAGE_SIZE } from './data'
 import { fakeClient } from './fakeClient'
