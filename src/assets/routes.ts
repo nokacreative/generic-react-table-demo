@@ -11,7 +11,8 @@ export const ROUTES = {
   userDetails: (id: string) => `/user/${id}`,
   groupDetails: (id: string) => `/group/${id}`,
   personDetails: (id: string) => `/person/${id}`,
-  styleSample: '/styles'
+  styleSample: '/styles',
+  textOverrideSample: '/textOverride',
 }
 
 export const ID_PARAM_PLACEHOLDER = ':id'
