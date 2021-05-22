@@ -3,7 +3,10 @@ import {
   DataType,
   CustomFilterType,
   MessageOverrides,
+  FormatterOverrides,
 } from '@nokacreative/generic-react-table'
+import { registerLocale } from 'react-datepicker'
+import fr from 'date-fns/locale/fr'
 
 import { Link } from 'react-router-dom'
 import { ROUTES } from '../../assets/routes'
@@ -33,6 +36,8 @@ export const columns: TableColumn<PersonModel>[] = [
   ...baseColumns.slice(1),
 ]
 
+registerLocale('fr', fr)
+
 export const messageOverrides: MessageOverrides = {
   noData: (pluralEntityName?: string) => `il n'y a pas de ${pluralEntityName}`,
   noFilterResults: "Il n'y a aucun résultat pour les filtres donnés!",
@@ -53,6 +58,10 @@ export const messageOverrides: MessageOverrides = {
       numericRangeFrom: 'minimum',
       numericRangeTo: 'maximum',
     },
+    datePicker: {
+      dateFormat: 'dd MMMM yyyy',
+      locale: 'fr',
+    },
   },
   xResults: (x: number, pluralEntityName?: string) => `${x} ${pluralEntityName}`,
   showingXofYResults: (x: number, y: number, pluralEntityName?: string) =>
@@ -60,4 +69,14 @@ export const messageOverrides: MessageOverrides = {
   resultsFilteredFrom: (from: number, pluralEntityName?: string) =>
     `(filtré à partir de ${from} ${pluralEntityName})`,
   searchTogglerButton: 'examiner',
+}
+
+export const formatterOverrides: FormatterOverrides = {
+  date: (timeValue: number) =>
+    new Date(timeValue).toLocaleDateString('fr-FR', {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+    }),
+  money: (value: number) => `€${value}`,
 }

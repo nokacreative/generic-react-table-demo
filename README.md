@@ -1,4 +1,4 @@
-This is the demo for the [Generic React Table](https://www.npmjs.com/package/@nokacreative/generic-react-table).
+This is the demo for the [Generic React Table](https://www.npmjs.com/package/@nokacreative/generic-react-table). It can be viewed [here](https://nokacreative.github.io/generic-react-table-demo/#/).
 
 It was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

@@ -5,7 +5,7 @@ import '../headerSample/styles.scss'
 import { Table } from '@nokacreative/generic-react-table'
 import { SamplePage } from '../../common/samplePage'
 import { database } from '../../assets/database'
-import { columns, messageOverrides } from './data'
+import { columns, formatterOverrides, messageOverrides } from './data'
 
 export const TextOverrideSample = () => {
   return (
@@ -33,6 +33,7 @@ export const TextOverrideSample = () => {
         showResultCount
         isFilterable
         messageOverrides={messageOverrides}
+        formatterOverrides={formatterOverrides}
       />
     </SamplePage>
   )
