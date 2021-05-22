@@ -17,6 +17,7 @@ import { PersonDetalis } from '../pages/personDetails'
 import { ServerHeaderSample } from '../pages/serverHeaderSample'
 import { MasterSample } from '../pages/masterSample'
 import { StyleOverridesSample } from '../pages/styleOverridesSample'
+import { TextOverrideSample } from '../pages/textOverridesSample'
 
 export const Entry = () => (
   <Router basename="/">
@@ -32,6 +33,7 @@ export const Entry = () => (
       <Link to={ROUTES.serverHeaderSample}>Server-side Search and Filter</Link>
       <Link to={ROUTES.masterSample}>Master Sample</Link>
       <Link to={ROUTES.styleSample}>Overriding Styles</Link>
+      <Link to={ROUTES.textOverrideSample}>Overriding Text</Link>
     </div>
     <main>
       <Switch>
@@ -54,6 +56,7 @@ export const Entry = () => (
           component={PersonDetalis}
         />
         <Route path={ROUTES.styleSample} component={StyleOverridesSample} />
+        <Route path={ROUTES.textOverrideSample} component={TextOverrideSample} />
       </Switch>
     </main>
   </Router>

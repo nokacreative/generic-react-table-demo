@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://nokacreative.github.io/generic-react-table-demo",
   "dependencies": {
-    "@nokacreative/generic-react-table": "^1.0.2",
+    "@nokacreative/generic-react-table": "^1.1.0",
     "node-sass": "^5.0.0",
     "react": "^17.0.2",
     "react-datepicker": "^3.8.0",

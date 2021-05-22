@@ -1,0 +1,1 @@
+export { TextOverrideSample } from './view'
