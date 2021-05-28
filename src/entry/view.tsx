@@ -11,13 +11,14 @@ import { UsersTable } from '../pages/usersTable'
 import { TagsTable } from '../pages/tagsTable'
 import { ProductsTable } from '../pages/productsTable'
 import { SelectionSample } from '../pages/selectionSample'
-import { ServerSampleContainer } from '../pages/serverSample'
+import { ServerSample } from '../pages/serverSample'
 import { HeaderSample } from '../pages/headerSample'
 import { PersonDetalis } from '../pages/personDetails'
 import { ServerHeaderSample } from '../pages/serverHeaderSample'
 import { MasterSample } from '../pages/masterSample'
 import { StyleOverridesSample } from '../pages/styleOverridesSample'
 import { TextOverrideSample } from '../pages/textOverridesSample'
+import { RichTextConfigs } from '../pages/richTextConfigsSample'
 
 export const Entry = () => (
   <Router basename="/">
@@ -34,6 +35,7 @@ export const Entry = () => (
       <Link to={ROUTES.masterSample}>Master Sample</Link>
       <Link to={ROUTES.styleSample}>Overriding Styles</Link>
       <Link to={ROUTES.textOverrideSample}>Overriding Text</Link>
+      <Link to={ROUTES.richTextConfigs}>Rich Text Configurations</Link>
     </div>
     <main>
       <Switch>
@@ -42,7 +44,7 @@ export const Entry = () => (
         <Route path={ROUTES.tagsTable} component={TagsTable} />
         <Route path={ROUTES.productsTable} component={ProductsTable} />
         <Route path={ROUTES.selectionSample} component={SelectionSample} />
-        <Route path={ROUTES.serverSample} component={ServerSampleContainer} />
+        <Route path={ROUTES.serverSample} component={ServerSample} />
         <Route path={ROUTES.headerSample} component={HeaderSample} />
         <Route path={ROUTES.serverHeaderSample} component={ServerHeaderSample} />
         <Route path={ROUTES.masterSample} component={MasterSample} />
@@ -57,6 +59,7 @@ export const Entry = () => (
         />
         <Route path={ROUTES.styleSample} component={StyleOverridesSample} />
         <Route path={ROUTES.textOverrideSample} component={TextOverrideSample} />
+        <Route path={ROUTES.richTextConfigs} component={RichTextConfigs} />
       </Switch>
     </main>
   </Router>
