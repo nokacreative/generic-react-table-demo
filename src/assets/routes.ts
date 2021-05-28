@@ -13,6 +13,7 @@ export const ROUTES = {
   personDetails: (id: string) => `/person/${id}`,
   styleSample: '/styles',
   textOverrideSample: '/textOverride',
+  richTextConfigs: '/richTextConfigs',
 }
 
 export const ID_PARAM_PLACEHOLDER = ':id'

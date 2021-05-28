@@ -1,0 +1,1 @@
+export { RichTextConfigs } from './view'

@@ -1,1 +1,1 @@
-export { ServerSampleContainer } from './container'
+export { ServerSampleContainer as ServerSample } from './container'
