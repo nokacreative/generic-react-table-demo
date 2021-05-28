@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/generic-react-table-demo/static/css/main.c187bcc0.chunk.css",
-    "main.js": "/generic-react-table-demo/static/js/main.8f4e34cd.chunk.js",
-    "main.js.map": "/generic-react-table-demo/static/js/main.8f4e34cd.chunk.js.map",
-    "runtime-main.js": "/generic-react-table-demo/static/js/runtime-main.38093e3f.js",
-    "runtime-main.js.map": "/generic-react-table-demo/static/js/runtime-main.38093e3f.js.map",
+    "main.css": "/generic-react-table-demo/static/css/main.e1de8333.chunk.css",
+    "main.js": "/generic-react-table-demo/static/js/main.4f49816b.chunk.js",
+    "main.js.map": "/generic-react-table-demo/static/js/main.4f49816b.chunk.js.map",
+    "runtime-main.js": "/generic-react-table-demo/static/js/runtime-main.ced62c78.js",
+    "runtime-main.js.map": "/generic-react-table-demo/static/js/runtime-main.ced62c78.js.map",
     "static/css/2.79ec7b98.chunk.css": "/generic-react-table-demo/static/css/2.79ec7b98.chunk.css",
-    "static/js/2.4e73398f.chunk.js": "/generic-react-table-demo/static/js/2.4e73398f.chunk.js",
-    "static/js/2.4e73398f.chunk.js.map": "/generic-react-table-demo/static/js/2.4e73398f.chunk.js.map",
-    "static/js/3.37f5ca0b.chunk.js": "/generic-react-table-demo/static/js/3.37f5ca0b.chunk.js",
-    "static/js/3.37f5ca0b.chunk.js.map": "/generic-react-table-demo/static/js/3.37f5ca0b.chunk.js.map",
+    "static/js/2.384624c1.chunk.js": "/generic-react-table-demo/static/js/2.384624c1.chunk.js",
+    "static/js/2.384624c1.chunk.js.map": "/generic-react-table-demo/static/js/2.384624c1.chunk.js.map",
+    "static/js/3.f6a7c774.chunk.js": "/generic-react-table-demo/static/js/3.f6a7c774.chunk.js",
+    "static/js/3.f6a7c774.chunk.js.map": "/generic-react-table-demo/static/js/3.f6a7c774.chunk.js.map",
     "index.html": "/generic-react-table-demo/index.html",
     "static/css/2.79ec7b98.chunk.css.map": "/generic-react-table-demo/static/css/2.79ec7b98.chunk.css.map",
-    "static/css/main.c187bcc0.chunk.css.map": "/generic-react-table-demo/static/css/main.c187bcc0.chunk.css.map",
-    "static/js/2.4e73398f.chunk.js.LICENSE.txt": "/generic-react-table-demo/static/js/2.4e73398f.chunk.js.LICENSE.txt"
+    "static/css/main.e1de8333.chunk.css.map": "/generic-react-table-demo/static/css/main.e1de8333.chunk.css.map",
+    "static/js/2.384624c1.chunk.js.LICENSE.txt": "/generic-react-table-demo/static/js/2.384624c1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.38093e3f.js",
+    "static/js/runtime-main.ced62c78.js",
     "static/css/2.79ec7b98.chunk.css",
-    "static/js/2.4e73398f.chunk.js",
-    "static/css/main.c187bcc0.chunk.css",
-    "static/js/main.8f4e34cd.chunk.js"
+    "static/js/2.384624c1.chunk.js",
+    "static/css/main.e1de8333.chunk.css",
+    "static/js/main.4f49816b.chunk.js"
   ]
 }
