@@ -19,6 +19,8 @@ import { MasterSample } from '../pages/masterSample'
 import { StyleOverridesSample } from '../pages/styleOverridesSample'
 import { TextOverrideSample } from '../pages/textOverridesSample'
 import { RichTextConfigs } from '../pages/richTextConfigsSample'
+import { HeaderCellTemplateSample } from '../pages/headerCellTemplateSample'
+import { RowReorderingSample } from '../pages/rowReorderingSample'
 
 export const Entry = () => (
   <Router basename="/">
@@ -29,13 +31,17 @@ export const Entry = () => (
       <Link to={ROUTES.tagsTable}>Pinned Columns and Column Reordering</Link>
       <Link to={ROUTES.productsTable}>Minimum Number of Rows and Paging</Link>
       <Link to={ROUTES.selectionSample}>Row Selection</Link>
+      <Link to={ROUTES.rowReordering}>Row Reordering</Link>
       <Link to={ROUTES.serverSample}>Server-side Paging and Sorting</Link>
       <Link to={ROUTES.headerSample}>Search and Filter</Link>
       <Link to={ROUTES.serverHeaderSample}>Server-side Search and Filter</Link>
       <Link to={ROUTES.masterSample}>Master Sample</Link>
+
+      <p>Further customizations:</p>
       <Link to={ROUTES.styleSample}>Overriding Styles</Link>
       <Link to={ROUTES.textOverrideSample}>Overriding Text</Link>
       <Link to={ROUTES.richTextConfigs}>Rich Text Configurations</Link>
+      <Link to={ROUTES.headerCellTemplate}>Header Cell Template</Link>
     </div>
     <main>
       <Switch>
@@ -44,6 +50,7 @@ export const Entry = () => (
         <Route path={ROUTES.tagsTable} component={TagsTable} />
         <Route path={ROUTES.productsTable} component={ProductsTable} />
         <Route path={ROUTES.selectionSample} component={SelectionSample} />
+        <Route path={ROUTES.rowReordering} component={RowReorderingSample} />
         <Route path={ROUTES.serverSample} component={ServerSample} />
         <Route path={ROUTES.headerSample} component={HeaderSample} />
         <Route path={ROUTES.serverHeaderSample} component={ServerHeaderSample} />
@@ -60,6 +67,7 @@ export const Entry = () => (
         <Route path={ROUTES.styleSample} component={StyleOverridesSample} />
         <Route path={ROUTES.textOverrideSample} component={TextOverrideSample} />
         <Route path={ROUTES.richTextConfigs} component={RichTextConfigs} />
+        <Route path={ROUTES.headerCellTemplate} component={HeaderCellTemplateSample} />
       </Switch>
     </main>
   </Router>

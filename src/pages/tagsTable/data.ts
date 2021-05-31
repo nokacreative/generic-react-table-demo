@@ -17,7 +17,7 @@ export const columns: TableColumn<TagModel>[] = [
     propertyPath: 'color',
     headerText: 'Colour',
     type: DataType.COLOR,
-    defaultWidth: '100px',
+    showText: true,
   },
   {
     propertyPath: 'description',

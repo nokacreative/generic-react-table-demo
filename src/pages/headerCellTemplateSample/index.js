@@ -1,0 +1,1 @@
+export { HeaderCellTemplateSample } from './view'

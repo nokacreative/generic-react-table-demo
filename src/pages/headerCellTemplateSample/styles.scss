@@ -1,0 +1,43 @@
+.custom-header {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  & > div:first-child {
+    display: flex;
+    align-items: center;
+  }
+
+  .sort-indicator {
+    flex-shrink: 0;
+    margin-right: 10px;
+  }
+
+  .header-text {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-style: italic;
+    display: block;
+    flex: 1;
+
+    &.sortable {
+      &::after {
+        content: '';
+        display: block;
+        width: 0%;
+        background: white;
+        height: 2px;
+        transition: width 0.3s;
+      }
+
+      &:hover::after {
+        width: 100%;
+      }
+    }
+  }
+
+  .filter-section {
+    color: pink;
+    font-size: 1.5em;
+  }
+}
