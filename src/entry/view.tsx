@@ -19,6 +19,7 @@ import { MasterSample } from '../pages/masterSample'
 import { StyleOverridesSample } from '../pages/styleOverridesSample'
 import { TextOverrideSample } from '../pages/textOverridesSample'
 import { RichTextConfigs } from '../pages/richTextConfigsSample'
+import { HeaderCellTemplateSample } from '../pages/headerCellTemplateSample'
 
 export const Entry = () => (
   <Router basename="/">
@@ -33,9 +34,12 @@ export const Entry = () => (
       <Link to={ROUTES.headerSample}>Search and Filter</Link>
       <Link to={ROUTES.serverHeaderSample}>Server-side Search and Filter</Link>
       <Link to={ROUTES.masterSample}>Master Sample</Link>
+
+      <p>Further customizations:</p>
       <Link to={ROUTES.styleSample}>Overriding Styles</Link>
       <Link to={ROUTES.textOverrideSample}>Overriding Text</Link>
       <Link to={ROUTES.richTextConfigs}>Rich Text Configurations</Link>
+      <Link to={ROUTES.headerCellTemplate}>Header Cell Template</Link>
     </div>
     <main>
       <Switch>
@@ -60,6 +64,7 @@ export const Entry = () => (
         <Route path={ROUTES.styleSample} component={StyleOverridesSample} />
         <Route path={ROUTES.textOverrideSample} component={TextOverrideSample} />
         <Route path={ROUTES.richTextConfigs} component={RichTextConfigs} />
+        <Route path={ROUTES.headerCellTemplate} component={HeaderCellTemplateSample} />
       </Switch>
     </main>
   </Router>
