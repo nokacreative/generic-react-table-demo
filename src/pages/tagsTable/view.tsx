@@ -16,7 +16,10 @@ export const TagsTable = () => {
             the screen is resized, while everything else scrolls. The number of pinned
             columns can be customized. All other columns can be reordered.
           </p>
-          <p>The Colour column type is also shown.</p>
+          <p>
+            The Colour column type is also shown. These can choose to display only the
+            colour box, or also its text value.
+          </p>
         </>
       }
     >
