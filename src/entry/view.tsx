@@ -20,6 +20,7 @@ import { StyleOverridesSample } from '../pages/styleOverridesSample'
 import { TextOverrideSample } from '../pages/textOverridesSample'
 import { RichTextConfigs } from '../pages/richTextConfigsSample'
 import { HeaderCellTemplateSample } from '../pages/headerCellTemplateSample'
+import { RowReorderingSample } from '../pages/rowReorderingSample'
 
 export const Entry = () => (
   <Router basename="/">
@@ -30,6 +31,7 @@ export const Entry = () => (
       <Link to={ROUTES.tagsTable}>Pinned Columns and Column Reordering</Link>
       <Link to={ROUTES.productsTable}>Minimum Number of Rows and Paging</Link>
       <Link to={ROUTES.selectionSample}>Row Selection</Link>
+      <Link to={ROUTES.rowReordering}>Row Reordering</Link>
       <Link to={ROUTES.serverSample}>Server-side Paging and Sorting</Link>
       <Link to={ROUTES.headerSample}>Search and Filter</Link>
       <Link to={ROUTES.serverHeaderSample}>Server-side Search and Filter</Link>
@@ -48,6 +50,7 @@ export const Entry = () => (
         <Route path={ROUTES.tagsTable} component={TagsTable} />
         <Route path={ROUTES.productsTable} component={ProductsTable} />
         <Route path={ROUTES.selectionSample} component={SelectionSample} />
+        <Route path={ROUTES.rowReordering} component={RowReorderingSample} />
         <Route path={ROUTES.serverSample} component={ServerSample} />
         <Route path={ROUTES.headerSample} component={HeaderSample} />
         <Route path={ROUTES.serverHeaderSample} component={ServerHeaderSample} />

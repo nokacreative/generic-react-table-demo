@@ -15,6 +15,7 @@ export const ROUTES = {
   textOverrideSample: '/textOverride',
   richTextConfigs: '/richTextConfigs',
   headerCellTemplate: '/headerCellTemplate',
+  rowReordering: '/rowReordering',
 }
 
 export const ID_PARAM_PLACEHOLDER = ':id'

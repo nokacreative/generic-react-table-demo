@@ -12,8 +12,9 @@ export const MasterSample = () => {
       description={
         <>
           <p>
-            This demo contains all the column types, and all available functionality. It
-            also contains all filter types that were previously not shown.
+            This demo contains all the column types, and all previously listed
+            functionality (aside from row reordering). It also contains all filter types
+            that were previously not shown.
           </p>
           All data is randomly generated.
         </>
